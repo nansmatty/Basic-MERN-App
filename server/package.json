@@ -1,0 +1,28 @@
+{
+  "name": "codedamn_mern",
+  "version": "1.0.0",
+  "description": "Full stack mern application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "MongoDB",
+    "ReactJS",
+    "NodeJS",
+    "ExpresJS"
+  ],
+  "author": "Narayan Maity",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
